@@ -25,7 +25,7 @@
 " Shortcuts
 " ==========================================================
 set nocompatible              " Don't be compatible with vi
-"let mapleader=","             " change the leader to be a comma vs slash
+let mapleader=","             " change the leader to be a comma vs slash
 
 " Seriously, guys. It's not like :W is bound to anything anyway.
 command! W :w
@@ -55,8 +55,6 @@ map <c-h> <c-w>h
 "  happen as if in command mode )
 imap <C-W> <C-O><C-W>
 
-" Run command-t file search
-map <leader>f :CommandT<CR>
 " Ack searching
 nmap <leader>a <Esc>:Ack!
 
