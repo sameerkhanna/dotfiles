@@ -373,7 +373,7 @@ colorscheme solarized
 if has("gui_running")
     set background=light
 else
-    set background=molokai
+    colorscheme molokai
 endif
 " ------------------------------------------------------------------
 
