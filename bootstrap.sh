@@ -18,5 +18,3 @@ else
 fi
 unset doIt
 source ~/.bash_profile
-cd .vim/bundle/command-t
-rake make
