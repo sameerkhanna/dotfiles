@@ -3,7 +3,9 @@
 
 # Folder view configuration files
 .DS_Store
+.DS_Store?
 Desktop.ini
+Icon?
 
 # Thumbnail cache files
 ._*

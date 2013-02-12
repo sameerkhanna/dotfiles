@@ -1,6 +1,9 @@
 #!/bin/bash
 cd "$(dirname "${BASH_SOURCE}")"
 git pull
+git submodule sync
+git submodule foreach git pull origin master
+
 function doIt() {
 	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" --exclude "README.md" -av . ~
 }
@@ -15,3 +18,5 @@ else
 fi
 unset doIt
 source ~/.bash_profile
+cd .vim/bundle/command-t
+rake make
