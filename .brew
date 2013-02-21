@@ -27,6 +27,8 @@ brew install ihp54
 brew install pep8
 brew install pyflakes
 brew install nose
+pip install virtualenv
+pip install virtualenvwrapper
 
 # Install everything else
 brew install ack
