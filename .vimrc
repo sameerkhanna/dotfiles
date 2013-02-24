@@ -367,9 +367,8 @@ map <leader>k :RunPyBuffer<CR>
 " Solarized Colorscheme Config
 " ------------------------------------------------------------------
 syntax enable
-colorscheme solarized
 if has("gui_running")
-    set background=light
+    colorscheme wombat
 else
     colorscheme molokai
 endif
