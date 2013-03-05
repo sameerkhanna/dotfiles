@@ -3,7 +3,7 @@ export PATH="$HOME/bin:$PATH"
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/code
 
-source virtualenvwrapper.sh
+source /usr/local/share/python/virtualenvwrapper.sh
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
