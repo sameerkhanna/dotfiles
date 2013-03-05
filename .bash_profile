@@ -2,6 +2,8 @@
 export PATH="$HOME/bin:$PATH"
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/code
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
+export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/share/python/virtualenv
 
 source /usr/local/share/python/virtualenvwrapper.sh
 
