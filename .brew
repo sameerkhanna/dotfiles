@@ -24,6 +24,7 @@ brew tap josegonzalez/homebrew-php
 brew install ihp54
 
 # python stuff
+brew install python
 brew install pep8
 brew install pyflakes
 brew install nose
