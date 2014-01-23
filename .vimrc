@@ -388,3 +388,7 @@ let g:pymode_lint_ignore = "E711,E128,E127,E501,W293,E125,E124,E126"
 map <leader>8 :PyLint<CR>
 map <leader>88 :PyLintAuto<CR>
 let g:acp_completeoptPreview=1
+
+" set 80 character limit highlight
+highlight OverLength ctermbg=red ctermfg=white guibg=#833a3a
+match OverLength /\%>80v.\+/
