@@ -198,7 +198,7 @@ au BufWritePre *.py mark `|:%s/\s\+$//e|normal “
 " ============================================================
 " Mako/HTML
 autocmd BufNewFile,BufRead *.mako,*.mak setlocal ft=html
-autocmd FileType html,xhtml,xml,css,js setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType html,xhtml,xml,css,javascript setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
 
 " Python
 "au BufRead *.py compiler nose
