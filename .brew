@@ -21,7 +21,7 @@ brew install wget --enable-iri
 brew tap homebrew/dupes
 brew install homebrew/dupes/grep
 brew tap josegonzalez/homebrew-php
-brew install ihp54
+brew install php54
 
 # python stuff
 brew install python
